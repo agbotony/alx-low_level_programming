@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
  * main - Print out data type in C
- *
+ * Tony code
  * Return:  Always 0
 */
+int main(void)
 {
 	char a;
 	int b;
