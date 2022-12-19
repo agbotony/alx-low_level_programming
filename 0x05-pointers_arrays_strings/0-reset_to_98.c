@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * reset_to_98 - update the value of a var using pointers
- * @n: int to update
- * created by Tony
- * Return: 0
+ * reset_to_98 - takes the pointer and updates the value
+ * @n: int to check
+ * Owned by Tony
+ * Return: 0 Always
  */
-
 
 void reset_to_98(int *n);
 {
