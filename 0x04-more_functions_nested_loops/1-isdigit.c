@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * is_digit - check if numbers are 0 - 9
- * @c: char to check
- * Return: 0 or 1
+ * main - check the code
+ *
+ * Return: Always 0
 */
-
-int _isdigit(int c);
+int main(void)
 {
-if (c >= '0' && c <= '9')
-return (1);
-else
-return (0);
+	char c;
+
+	c = '0';
+	printf("%c: %d\n", c, _isdigit(c));
+	c = 'a';
+	printf("%c: %d\n", c, _isdigit(c));
+	return (0);
 }
