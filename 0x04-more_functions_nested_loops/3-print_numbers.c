@@ -4,7 +4,7 @@
  * print_numbers - print 0123456789
  * Owned by Tony
  * Return: void
-*/
+ */
 
 void print_numbers(void)
 {
